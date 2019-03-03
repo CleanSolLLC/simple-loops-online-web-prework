@@ -44,18 +44,19 @@ num = 0
 def until_iterator(number_of_times)
   # code your solution here using the "until" keyword
   # hint: use a counter to tell the until loop when to stop!
-  num = 0
-  until num == number_of_times
+  count = 0
+  until count == number_of_times
     phrase = "Welcome to Flatiron School's Web Development Course!"
     puts phrase
-    num += 1
+    count += 1
 end
 end
 
 def for_iterator(number_of_times)
   # code your solution here using the "for" keyword
   # remember that `for` requires a range of numbers. How can we turn our number into a range?
-
+  for 0..number_ofTimes
   phrase = "Welcome to Flatiron School's Web Development Course!"
-
+  puts phrase
+end
 end
